@@ -12,15 +12,10 @@ import img9 from './images/dj.jpg'
 import img10 from './images/jest.png'
 import img11 from './images/pytest.png'
 import img12 from './images/redux.png'
-import { useNavigate } from "react-router-dom";
 
 
 function Middle() {
 
-    const navigate = useNavigate();
-    const project = () => {
-        navigate("/project");
-    }
 
     return (
         <div className="my-work">
@@ -85,7 +80,7 @@ function Middle() {
                     
             </div>
     
-            <button class="btn" id="work-btn" onClick={project}> Project information </button>
+           
     </div>
     )
 }

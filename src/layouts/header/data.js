@@ -1,7 +1,6 @@
-import { FaMapMarkedAlt, FaCheckCircle } from "react-icons/fa";
-import { TiWeatherPartlySunny } from "react-icons/ti";
-import { AiFillHome, AiFillPhone, AiFillProject, AiFillSetting } from "react-icons/ai";
-import { RiMessage2Fill } from "react-icons/ri";
+
+import { AiFillHome, AiFillPhone, AiFillProject } from "react-icons/ai";
+
 
 
 export const SidebarData = [

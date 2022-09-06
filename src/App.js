@@ -7,20 +7,17 @@ const App = () => {
   return (
 
     <>
-    <div className="overall">
-      <Routes>
-          <Route path="/" element={<Layout />}>
-              <Route  path="/" element={<Home />} /> 
-              <Route  path="project" element={<Project />} />
-              <Route  path="contacts" element={<Contacts />} />  
-          </Route>
-      </Routes>
-
-      
-      
+      <div className="overall">
+        <Routes>
+            <Route path="/" element={<Layout />}>
+                <Route  path="/" element={<Home />} /> 
+                <Route  path="project" element={<Project />} />
+                <Route  path="contacts" element={<Contacts />} />  
+            </Route>
+        </Routes>
       </div>
 
-      </>
+    </>
   )
 }
 

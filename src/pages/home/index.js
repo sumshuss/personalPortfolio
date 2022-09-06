@@ -3,20 +3,20 @@ import Education from "./components/education";
 import Intro from "./components/intro";
 import Middle from "./components/middle";
 import AboutMe from "./components/aboutMe";
+import { useEffect } from "react";
 
 function Home() {
 
-    return(
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
-
-
+    return (
         <>
-        <Intro />
-        <Education />
-        <AboutMe />
-        <Middle /> 
-
-        
+            <Intro />
+            <Education />
+            <AboutMe />
+            <Middle /> 
         </>
     )
 }
