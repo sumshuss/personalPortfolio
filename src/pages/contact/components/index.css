@@ -1,0 +1,78 @@
+
+
+.contact { 
+margin: 20px auto;
+background-color: #222;
+max-width: 1300px;
+height: 700px;
+/* margin-bottom: 20px; */
+border-radius: 10px;
+color: white;
+
+
+}
+
+.intro-contacts {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.intro-contacts h1 {
+    font-size: 4rem;
+    color: aliceblue;
+
+    
+} 
+
+.list {
+   
+    margin: 100px auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.component {
+   
+    max-width: 600px;
+
+    
+}
+
+.icons {
+    font-size: 5rem;
+    margin-left: 20px;
+    color: white;
+    
+}
+
+.phone {
+    margin-left: 30px;
+}
+
+.linked {
+    margin-left: 55px;
+}
+
+.num {
+    padding-left: 10px;
+}
+
+.gemail{
+    padding-left: 50px;
+}
+
+.email {
+    padding-left: 50px;
+    
+}
+
+.lastmess {
+    padding-top: 14px;
+    text-align: center;
+}
+
+.bye {
+    font-size: 2.5rem;
+}

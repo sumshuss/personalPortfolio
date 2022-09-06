@@ -8,31 +8,13 @@ function Layout() {
 
     return (
         <>
+
+
             <Header />
-            <Outlet />
-         
-            {/* <div class="area" >
-
-             <ul class="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-            </ul> 
-        
-    </div > */}
-       
-
-           
-            
-                
+            <Outlet />     
              <Footer />
+            
+
         </>
 
     )
