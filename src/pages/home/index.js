@@ -8,11 +8,15 @@ function Home() {
 
     return(
 
+
+
         <>
         <Intro />
         <Education />
         <AboutMe />
         <Middle /> 
+
+        
         </>
     )
 }

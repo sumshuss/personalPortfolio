@@ -17,6 +17,8 @@ function AboutMe() {
             <img src={logo} alt="summira standing" class="about-me__img" />
         
         </div>
+
+        
     )
 }
 

@@ -1,0 +1,37 @@
+
+
+.contact { 
+margin: 20px auto;
+background-color: #222;
+max-width: 1300px;
+height: 750px;
+/* margin-bottom: 20px; */
+border-radius: 10px;
+
+}
+
+.intro-contacts {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.intro-contacts h1 {
+    font-size: 4rem;
+    color: aliceblue;
+
+    
+} 
+
+.list {
+    background-color: blue;
+    margin: 100px auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.component {
+    background-color: aqua;
+    
+}
