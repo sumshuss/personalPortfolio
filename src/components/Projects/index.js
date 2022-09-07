@@ -1,11 +1,11 @@
 import React from 'react';
-
 import styles from './index.module.css';
 import passwordgen from './images/pwgen.png';
 import habitTracker from './images/habit.png';
 import ghostHunters from './images/ghost.png';
 import converter from './images/converter.png';
 import triviani from './images/triviani.png'
+import artemis from './images/artemis.png'
 
 const Projects = () => {
     return (
@@ -31,7 +31,7 @@ const Projects = () => {
                             <div className={styles.buttons}>
                                 <a
                                     className={styles.button}
-                                    href="https://github.com/Izgardon/Lap-1-Portfolio-Project-Client"
+                                    href="https://github.com/sumshuss/randompasswordgen"
                                     
                                 >
                                     Github
@@ -39,7 +39,7 @@ const Projects = () => {
 
                                 <a
                                     className={styles.button}
-                                    href="https://london-journal.netlify.app/"
+                                    href="https://animated-squirrel-4fb828.netlify.app/"
                                     
                                 >
                                     Live
@@ -71,7 +71,7 @@ const Projects = () => {
                             <div className={styles.buttons}>
                                 <a
                                     className={styles.button}
-                                    href="https://github.com/millman97/lap-2-frontend"
+                                    href="https://github.com/SuperBrava/LAP-2-Project-Front-End"
                                     
                                 >
                                     Github
@@ -79,7 +79,7 @@ const Projects = () => {
 
                                 <a
                                     className={styles.button}
-                                    href="https://fp-habit-tracker.netlify.app"
+                                    href="https://habit-tracker-lap-two.netlify.app/"
                                   
                                 >
                                     Live
@@ -109,7 +109,7 @@ const Projects = () => {
                             <div className={styles.buttons}>
                                 <a
                                     className={styles.button}
-                                    href="https://github.com/Gioele-M/lap3_quiz_project_client"
+                                    href="https://github.com/NovaDA/Ghost_Hunters_FE"
                                 
                                 >
                                     Github
@@ -117,7 +117,7 @@ const Projects = () => {
 
                                 <a
                                     className={styles.button}
-                                    href="https://dumbfounded.netlify.app/"
+                                    href="https://paranormal-testimonies.netlify.app/index.html"
                                 
                                 >
                                     Live
@@ -147,7 +147,7 @@ const Projects = () => {
                             <div className={styles.buttons}>
                                 <a
                                     className={styles.button}
-                                    href="https://github.com/alicekres/random-blogs"
+                                    href="https://github.com/sumshuss/unitconveter"
                                    
                                 >
                                     Github
@@ -155,7 +155,7 @@ const Projects = () => {
 
                                 <a
                                     className={styles.button}
-                                    href="https://blog-project-gukxpvjva-alicekres.vercel.app/"
+                                    href="https://sage-marshmallow-bb77fe.netlify.app/"
                                    
                                 >
                                     Live
@@ -188,7 +188,7 @@ const Projects = () => {
                             <div className={styles.buttons}>
                                 <a
                                     className={styles.button}
-                                    href="https://github.com/Gioele-M/lap3_quiz_project_client"
+                                    href="https://github.com/sigltech/Triviani-Quiz-App"
                                 
                                 >
                                     Github
@@ -196,7 +196,46 @@ const Projects = () => {
 
                                 <a
                                     className={styles.button}
-                                    href="https://dumbfounded.netlify.app/"
+                                    href="https://triviani-quiz.netlify.app/"
+                                
+                                >
+                                    Live
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className={styles.flipCard}>
+                    <div className={styles.flipCardInner}>
+                        <div className={styles.flipCardFront}>
+                            <img
+                                className={styles.imageStyles}
+                                src={artemis}
+                                alt="ghost hunters main page"
+                            />
+                        </div>
+                        <div className={styles.flipCardBack}>
+                            <h3>Artemis Camping</h3>
+                            <p className={styles.projectDescription}>
+                               Love hiking, but planning a trip requires too much apps? With Artemis Camping, users can plan their camping trip, create a list of necessities, find out the weather, create a route and view the map all in one application! Planning a nice hike has never been easier with Artemis camping!
+                            </p>
+
+                            <p>
+                                For this app, we used React and Redux, as well as CSS for the front end. We also created a backend using the Django framework (python)
+                            </p>
+                            <div className={styles.buttons}>
+                                <a
+                                    className={styles.button}
+                                    href="https://github.com/wingyuen2022/artemis-frontend"
+                                
+                                >
+                                    Github
+                                </a>
+
+                                <a
+                                    className={styles.button}
+                                    href="https://artemis-camping.netlify.app/"
                                 
                                 >
                                     Live
