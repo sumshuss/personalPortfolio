@@ -6,6 +6,7 @@ import ghostHunters from './images/ghost.png';
 import converter from './images/converter.png';
 import triviani from './images/triviani.png'
 import artemis from './images/artemis.png'
+import meowChat from './images/meowChat.png'
 
 const Projects = () => {
     return (
@@ -206,6 +207,44 @@ const Projects = () => {
                     </div>
                 </div>
 
+                <div className={styles.flipCard}>
+                    <div className={styles.flipCardInner}>
+                        <div className={styles.flipCardFront}>
+                            <img
+                                className={styles.imageStyles}
+                                src={meowChat}
+                                alt="meowchat"
+                            />
+                        </div>
+                        <div className={styles.flipCardBack}>
+                            <h3>Meow Chat</h3>
+                            <p className={styles.projectDescription}>
+                               Meow chat is a chat application that allows users to communicate with each other. it allows users to see live chat messages from their friends
+                            </p>
+
+                            <p>
+                                For this app, I used React, Sass, HTML and Javascript. I also used firebase to store user data.
+                            </p>
+                            <div className={styles.buttons}>
+                                <a
+                                    className={styles.button}
+                                    href="https://github.com/sumshuss/react-chat-app"
+                                
+                                >
+                                    Github
+                                </a>
+
+                                <a
+                                    className={styles.button}
+                                    href="https://meowchatsum.netlify.app/"
+                                
+                                >
+                                    Live
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className={styles.flipCard}>
                     <div className={styles.flipCardInner}>
                         <div className={styles.flipCardFront}>
